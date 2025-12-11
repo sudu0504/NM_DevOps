@@ -1,10 +1,10 @@
 {
-  "family": "banking-api-task",
+  "family": "NM_DevOps-task",
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
-      "name": "banking-api-container",
-      "image": "207362637787.dkr.ecr.us-east-1.amazonaws.com/banking-api:latest",
+      "name": "NM_DevOps-container",
+      "image": "207362637787.dkr.ecr.us-east-1.amazonaws.com/NM_DevOps:latest",
       "essential": true,
       "portMappings": [
         {
@@ -23,7 +23,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "/ecs/banking-api",
+          "awslogs-group": "/ecs/NM_DevOps",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
