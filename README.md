@@ -1,2 +1,2 @@
-# NM_DevOps
+# banking-api
 Application to explore the DevOps
